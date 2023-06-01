@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif; 
+    
+}
+.header .titulos h1{
+    margin-top: 100px;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    padding: 10px;
+    z-index: 999;
+  }
+  
+  .contenido {
+    margin-top: 200px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+     /* Asegura que el contenido no quede oculto detrás del encabezado */
+  }
+
+.top{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+}
+
+.top .links{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    
+    width: 80%;
+    height: 100%;
+
+}
+
+.top .links a{
+    text-decoration: none;
+    color: black;
+    margin: 0 100px 0 0;
+    margin-left: 30px;
+}
+.top .buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    
+
+}
+
+.top .buttons a{
+    font-size: 30px;
+    margin: 0 45px;
+}
+
+.search{
+    display: flex;
+    
+
+    height: 15vh;
+    width: 100%;
+}
+
+.search .searchimg{
+    
+    width: 75;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search .searchimg img{
+    height: 200px;
+}
+
+.search .searchimg .input{
+    background-color: #f5f5f5;
+    
+    display: flex;
+    align-items: center;
+    
+    width: 90%;
+    border-radius: 50px;
+    margin-left: 100px;
+    
+}
+
+
+.search .searchimg .input input{
+    margin-right: 150px;
+    display: flex;
+    outline: none;
+    background-color: #f5f5f5;
+    border-color: none;
+    border: none;
+    height: 35px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+
+.search .banco{
+    margin-left: 400px;
+    display: flex;
+    justify-content: end;
+}
+
+.search .banco img{
+    margin-top: 20px;
+    height: 50px;
+}
+
+.imagenes4{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-right: 10px;
+}
+
+
+.final .titulosfinal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.final .titulosfinal h1{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px
+}
+
+.final .titulosfinal h2{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    margin-bottom: 10px
+}
+
+.final .titulosfinal h3{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    margin-bottom: 10px
+}
+.final .subtifinales{
+    display: flex;
+
+}
+.final .subtifinales a{
+    text-decoration: none;
+    color: black;
+}
+.final .titulosfinal .Informacion a{
+    text-decoration: none;
+    color: black;
+    flex-wrap: wrap;
+    display: block;
+}
+.final .titulosfinal .Informacion h1{
+    margin-top: 35px;
+}
+.final .titulosfinal .Servicios a{
+    text-decoration: none;
+    color: black;
+    flex-wrap: wrap;
+    display: block;
+}
+.final .titulosfinal .Contacto a{
+    text-decoration: none;
+    display: block;
+    color: black;
+    flex-wrap: wrap;
+}
+.final .titulosfinal{
+    margin-top: 20px;
+}
+
+.final .titulosfinal{
+    height: 10vh;
+}
+
+
+
+.final{
+    margin-top: 200px;
+}
